@@ -56,11 +56,14 @@ dev.off()
 Median of the total number of steps taken per day:
 ```{r echo=TRUE}
 medianTotalSteps<- median(sumPerDay$dailySumSteps)
+median(sumPerDay$dailySumSteps)
 ```
 
 Mean of the total number of steps taken per day:
 ```{r echo=TRUE}
 meanTotalSteps<- mean(sumPerDay$dailySumSteps)
+
+mean(sumPerDay$dailySumSteps)
 ```
 
 The mean total number of steps taken per day is `r meanTotalSteps` and the median total number of steps is `r medianTotalSteps`

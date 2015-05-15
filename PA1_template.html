@@ -106,9 +106,14 @@ dev.off()</code></pre>
 <li>Calculate and report the mean and median of the total number of steps taken per day:</li>
 </ol>
 <p>Median of the total number of steps taken per day:</p>
-<pre class="r"><code>medianTotalSteps&lt;- median(sumPerDay$dailySumSteps)</code></pre>
+<pre class="r"><code>medianTotalSteps&lt;- median(sumPerDay$dailySumSteps)
+median(sumPerDay$dailySumSteps)</code></pre>
+<pre><code>## [1] 10765</code></pre>
 <p>Mean of the total number of steps taken per day:</p>
-<pre class="r"><code>meanTotalSteps&lt;- mean(sumPerDay$dailySumSteps)</code></pre>
+<pre class="r"><code>meanTotalSteps&lt;- mean(sumPerDay$dailySumSteps)
+
+mean(sumPerDay$dailySumSteps)</code></pre>
+<pre><code>## [1] 10766.19</code></pre>
 <p>The mean total number of steps taken per day is 1.076618910^{4} and the median total number of steps is 10765</p>
 </div>
 <div id="what-is-the-average-daily-activity-pattern" class="section level2">

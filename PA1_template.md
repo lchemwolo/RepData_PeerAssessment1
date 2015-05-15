@@ -77,12 +77,23 @@ Median of the total number of steps taken per day:
 
 ```r
 medianTotalSteps<- median(sumPerDay$dailySumSteps)
+median(sumPerDay$dailySumSteps)
+```
+
+```
+## [1] 10765
 ```
 
 Mean of the total number of steps taken per day:
 
 ```r
 meanTotalSteps<- mean(sumPerDay$dailySumSteps)
+
+mean(sumPerDay$dailySumSteps)
+```
+
+```
+## [1] 10766.19
 ```
 
 The mean total number of steps taken per day is 1.0766189\times 10^{4} and the median total number of steps is 10765
